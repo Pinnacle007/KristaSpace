@@ -1,0 +1,103 @@
+.world-lead{
+    box-shadow: 10px 10px 5px rgb(123, 57, 123);
+    border-radius: 1rem;
+}
+
+
+
+.text-area{
+    background: rgb(225, 204, 225);
+    border-radius: 2rem;
+    height: 15rem;
+}
+
+.logo{
+    color: rgb(209, 19, 209);
+    font-weight: bolder;
+}
+
+
+button{
+    border: none;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.join-btn{
+    background: rgb(209, 19, 209);
+    color: #fff;
+    border-radius: 2rem;
+    width: 30%;
+    font-weight: bold;
+    padding: 0.5rem;
+    
+}
+
+.join-btn:hover{
+    background-color: #fff;
+    color: rgb(209, 19, 209);
+}
+
+/* .join-btn:active{
+    translate: transform(2y);
+} */
+
+
+.question-btn{
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    width: 45%;
+    padding:0.5rem ;
+    border-radius: 2rem;
+}
+
+
+.question-btn:hover{
+    background: rgb(209, 19, 209);
+    color: #fff;
+}
+
+
+.flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+
+.cen{
+    justify-self: center;
+}
+
+
+
+@media screen and (max-width: 660px){
+
+    div.text-area  {order: 2;}
+    div.img-area  {order: 1;}
+
+    /* .world-lead{
+        width:fit-content;
+    } */
+}
+
+
+.twitt{
+    font-size: 2rem;
+    
+    border-radius: 50%;
+    color: aqua;
+}
+
+
+.linkked{
+    font-size: 2rem;
+    color: rgb(12, 12, 88);
+}
+
+.telg, .disc{
+    font-size: 2rem;
+}
+
