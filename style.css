@@ -64,6 +64,8 @@ button{
 .flex{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
+    justify-items: center;
+    font-weight: bolder;
 }
 
 
@@ -71,6 +73,7 @@ button{
     justify-items: center;
     font-weight: bolder;
     font-size: small;
+    display: block;
 }
 
 
@@ -108,7 +111,7 @@ button{
     color: #fff;
     justify-self: center;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     box-shadow: 10px 10px 5px lightgoldenrodyellow;
 }
 
