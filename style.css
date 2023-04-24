@@ -32,6 +32,7 @@
 .logo{
     color: rgb(209, 19, 209);
     font-weight: bolder;
+    font-size: xx-large;
 }
 
 
@@ -106,10 +107,19 @@ button{
 } 
 
 
+
 /* .our-number{
     font-family: 'roboto';
 } */
 
+
+.main-footer{
+    background:linear-gradient(to right, rgb(55, 53, 53),  #0e0101);
+    color: #e4dada;
+    padding: 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 660px){
 
@@ -126,13 +136,13 @@ button{
     font-size: 2rem;
     
     border-radius: 50%;
-    color: aqua;
+    color: #fff;
 }
 
 
 .linkked{
     font-size: 2rem;
-    color: rgb(12, 12, 88);
+    color: #fff;
 }
 
 .telg, .disc{
