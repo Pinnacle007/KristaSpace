@@ -13,22 +13,23 @@
   }
 
 
-.world-lead{
-    /* box-shadow: 10px 10px 5px ; */
-    /* border-radius: 10px; */
-    /* padding: 2px; */
-}
+/* .world-lead{
+    box-shadow: 10px 10px 5px ; 
+    border-radius: 10px;
+     padding: 2px;
+} */
 
 
 
 .text-area{
     background: rgb(235, 229, 235);
     border-radius: 5px;
-    height: 15rem;
+    height: 20rem;
     /* position: relative;
     left: 8rem; */
     padding: 1rem;
     /* margin-left: 1px; */
+    width: min-content;
 }
 
 .logo{
@@ -40,6 +41,7 @@
 
 button{
     border: none;
+    
 }
 
  a {
@@ -53,6 +55,7 @@ button{
     width: 30%;
     font-weight: bold;
     padding: 0.5rem;
+   
     
 }
 
@@ -74,6 +77,7 @@ button{
     padding:0.5rem ;
     border-radius: 0.7rem;
     margin-left: 2rem;
+    
 }
 
 
