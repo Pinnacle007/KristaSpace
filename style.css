@@ -92,19 +92,27 @@ button{
 
 
 .cen{
-    justify-items: center;
+    justify-content: center;
     font-weight: bolder;
     font-size: small;
-    display: block;
+    display: grid;
+}
+
+.what{
+    justify-content: center;
+    display: flex;
+    font-weight: bolder;
+    font-size: xx-large;
 }
 
 
  .join-bfa{
-    background-image: conic-gradient( purple 210deg,orange 90deg);
+    background: linear-gradient(to right, rgb(239, 239, 25), rgb(232, 171, 58));
+    /* background: #8B26DE; */
     color: #fff;
     justify-self: center;
     padding: 2rem;
-    /* border-radius: 1rem; */
+    border-radius: 0.5rem;
     /* box-shadow: 10px 10px 5px rgb(213, 213, 212); */
 } 
 
