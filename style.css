@@ -25,11 +25,13 @@
     background: rgb(235, 229, 235);
     border-radius: 5px;
     height: 20rem;
-    /* position: relative;
-    left: 8rem; */
-    padding: 1rem;
-    /* margin-left: 1px; */
+    position: relative;
+    left: 5rem;
+    padding: 2rem;
+    padding-left: 8rem;
+    /* margin-left: 3px; */
     width: min-content;
+    font-weight: bolder;
 }
 
 .logo{
@@ -119,6 +121,14 @@ button{
     border-radius: 0.5rem;
     /* box-shadow: 10px 10px 5px rgb(213, 213, 212); */
 } 
+
+/* .join-bfa-btn{
+    background: rgb(200, 157, 78);
+    color: white;
+    width: 20%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+} */
 
 
 
